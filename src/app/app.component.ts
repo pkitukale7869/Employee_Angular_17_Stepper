@@ -115,6 +115,7 @@ export class AppComponent implements OnInit{
     this.activeStep=this.stepsList[1];
     this.stepperCompletionValue=50;
   }
+  //Going to Step 3
   gotoStep3(){
     const currentStep=this.stepsList.find(m=>m.stepName==this.activeStep.stepName);
     currentStep.isComplete=true;
